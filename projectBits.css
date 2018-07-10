@@ -1,0 +1,79 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.head
+{
+	width: 100vw;
+	height: 12vh;
+	background: #eee;
+	border-bottom: 2px solid rgb(0,180,255);
+	overflow-y: hidden;
+}
+
+.head > img
+{
+	width: 5.8vw;
+	position: relative;
+	left: 5vw;
+}
+
+.head > a
+{
+	position: relative;
+	left: 55vw;
+	top: -5vh;
+	text-decoration: none;
+	padding-left: 2%;
+	color: black;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+.image
+{
+	position: absolute;
+	top: 12.4vh;
+	height: 87.6vh;
+	width: 100vw;
+}
+
+.image > img
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 80vw;
+	height: 87vh;
+}
+
+.overlay
+{
+	position: absolute;
+	top: 12.3vh;
+	width: 100vw;
+	height: 87.6vh;
+	background: rgba(0,0,0,0.5);
+}
+
+.vision
+{
+	position: absolute;
+	top: 100vh;
+	left: 0;
+	width: 100vw;
+	height: 50vh;
+	background: #eee;
+}
+
+.vision > h1
+{
+	position: relative;
+	top: 10vh;
+	text-align: center;
+	font-family: 'Chela One', cursive;
+	font-size: 40px;
+}
