@@ -24,14 +24,12 @@
 
 	<div class="overview">
 		<h1>Project Overview</h1>
-                <form action='' method="post" enctype="multipart/form-data" id="proj_form" > {% csrf_token %}
-
-		    <p class="title">Title of the project: <input type="text" name="{{ form.title.name }}"></p>
-                    <p class="description">Description : (150words) <textarea rows="4" cols="50" name="{{ form.description.name }}" id="proj_form"> </textarea></p>
-		    <p class="links">Links if any : <input type="url" name="{{ form.links.name }}"></p>
-  	            Attachments if any: <input type="file" name="{{ form.files.name }}"><br><br>
-                    <input type="submit" class="submit" name="submit" value="Submit" >  
-
+		<form action='' method="post" enctype="multipart/form-data" id="proj_form" > {% csrf_token %}
+	    	<p class="title">Title of the project: <input type="text" name="{{ form.title.name }}"></p>
+			<p class="description">Description : (150words) <textarea rows="4" cols="40" name="{{ form.description.name }}" id="proj_form"> </textarea></p>
+			<p class="links">Links if any : <input type="url" name="{{ form.links.name }}"></p>
+	   		<p class="attachment">Attachments if any: <input type="file" name="{{ form.files.name }}"></p>
+			<input type="submit" class="submit" name="submit" value="Submit" >  
 		</form>
 	</div>
 
