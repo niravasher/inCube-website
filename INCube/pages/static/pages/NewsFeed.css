@@ -74,6 +74,7 @@ button:hover
 	position: absolute;
 	top: 28vh;
 	width: 100vw;
+	height: 100vh;
 }
 
 .overview > h1
