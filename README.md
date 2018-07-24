@@ -1,4 +1,4 @@
 # inCube-website
 
-### Currently the website has only a home page 
+### Users can enter information about their projects
 
