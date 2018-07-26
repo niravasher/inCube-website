@@ -1,4 +1,6 @@
 # inCube-website
 
-### Users can enter information about their projects
+### Users can create new projects, and can upload files as attachments
+
+### Users can also view existing projects, with their details
 
