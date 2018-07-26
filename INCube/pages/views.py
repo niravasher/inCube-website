@@ -25,4 +25,12 @@ def new(request):
     args['form'] = form
 
     return render_to_response('pages/NewsFeed.html', args)
-   
+
+
+def view(request): 
+    project_data = Project.objects.all()
+    return render(request, 'pages/feedPage.html', {'project_data': project_data})
+
+
+def dev(request):
+    return render(request, 'pages/developers.html')
